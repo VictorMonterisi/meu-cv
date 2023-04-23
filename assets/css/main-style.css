@@ -1,0 +1,287 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo Universal */
+body {
+    font-family: Verdana, sans-serif;
+	font-size: 62.5%;
+    background: var(--branco);
+    color: var(--preto);
+}
+
+:root {
+    --font-h1: 2.1em;
+    --font-h2: 2.0em;
+    --font-h3: 1.8em;
+    --font-h4: 1.7em;
+    --fonte-conteudo: 1.4em;
+    --fonte-icones: 3.8em;
+    --branco: #f9f9f9;
+    --preto: #1f1f1f;
+    --azul: #00396a;
+    --azul-claro: #bbdfff;
+    --cinza: #b1b1b1;
+    --vermelho: #f40f02;
+    --largura-container: 80%;
+    --background: var(--azul);
+    --color-header: var(--branco);
+    --largura-foto: 200px;
+    --altura-foto: 200px;
+    --padding-container: 30px 0;
+    --link: var(--azul-claro);
+    --link-visitado: var(--cinza);
+    --icone-scroll-top: var(--azul);
+    --icone-imprimir: var(--azul);
+    --icone-baixar-pdf: var(--vermelho);
+    --status-display: block;
+}
+
+/* Adaptação para Impressão */
+.adapt-print {
+    --font-h1: 1.5em;
+    --font-h2: 1.4em;
+    --font-h3: 1.3em;
+    --font-h4: 1.2em;
+    --fonte-conteudo: 1em;
+    --fonte-icones: 1.6em;
+    --branco: #fff;
+    --preto: #000;
+    --largura-container: 95%;
+    --background: var(--branco);
+    --color-header: var(--preto);
+    --largura-foto: 140px;
+    --altura-foto: 140px;
+    --padding-container: 0;
+    --link: var(--preto);
+    --link-visitado: var(--preto);
+    --icone-scroll-top: var(--preto);
+    --icone-imprimir: var(--preto);
+    --icone-baixar-pdf: var(--preto);
+    --status-display: none;
+}
+
+/* Adaptação para Download PDF */
+.adapt-pdf {
+    --font-h1: 1.6em;
+    --font-h2: 1.5em;
+    --font-h3: 1.4em;
+    --font-h4: 1.3em;
+    --fonte-conteudo: 1.2em;
+    --fonte-icones: 2.8em;
+    --branco: #fff;
+    --preto: #000;
+    --largura-container: 80%;
+    --background: var(--branco);
+    --color-header: var(--preto);
+    --largura-foto: 160px;
+    --altura-foto: 160px;
+    --padding-container: 0;
+    --link: var(--preto);
+    --link-visitado: var(--preto);
+    --icone-scroll-top: var(--preto);
+    --icone-imprimir: var(--preto);
+    --icone-baixar-pdf: var(--preto);
+    --status-display: none;
+}
+
+/* Parâmetros de Containers */
+
+.container-header,
+.container {
+    z-index: 1;
+}
+
+.container-header {
+    width: var(--largura-container);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.container {
+    width: var(--largura-container);
+    padding: var(--padding-container);
+    margin: 0 auto;
+}
+
+/* Configuração do Conteúdo Geral */
+h1 {
+    font-size: var(--font-h1);
+}
+
+h2 {
+    font-size: var(--font-h2);
+    margin: 15px 0 7px 0;
+}
+
+h3 {
+    font-size: var(--font-h3);
+}
+h4 {
+    font-size: var(--font-h4);
+    margin: 15px 0 0 0;
+}
+
+p,
+li {
+    font-size: var(--fonte-conteudo);
+    line-height: 1.4em;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+}
+
+a:visited {
+    color: var(--link-visitado);
+}
+
+/* Cabeçalho / Informações Pessoais */
+header {
+    background: var(--background);
+    color: var(--color-header);
+    padding: 15px 0;
+}
+
+.area-informacoes-pessoais {
+    display: flex;
+    flex-direction: row;
+}
+
+.area-informacoes-pessoais .area-foto img {
+    width: var(--largura-foto);
+    height: var(--altura-foto);
+    border-radius: 50%;
+}
+
+/* Ajustes de Espaçamento das Áreas */
+.area-sobre,
+.area-objetivo,
+.area-formacao,
+.area-experiencia,
+.area-competencias {
+    padding: 0 0 15px 0;
+}
+
+.formacao,
+.experiencia,
+.competencias {
+    padding: 0 0 0 15px;
+}
+
+.area-funcao,
+.curso {
+    padding: 0 0 0 30px;
+}
+
+.tecnologias {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 1.5em;
+    width: 90%;
+    margin: 15px auto 0 auto;
+}
+
+.tecnologias li i {
+    font-size: var(--fonte-icones);
+}
+
+.tecnologias li span{
+    font-size: var(--fonte-conteudo);
+}
+
+/* Estilo dos Botões */
+.btn-imprimir,
+.btn-baixar-pdf,
+.btn-scroll-top {
+    display: var(--status-display);
+    position: fixed;
+    font-size: var(--fonte-icones);
+    cursor: pointer;
+    transition: all ease 0.3s;
+    z-index: 2;
+}
+
+.btn-imprimir:hover,
+.btn-baixar-pdf:hover,
+.btn-scroll-top:hover {
+    opacity: 0.8;
+    transition: all ease 0.3s;
+}
+
+.btn-imprimir {
+    top: 13em;
+    right: 15px;
+    color: var(--icone-imprimir);
+}
+
+.btn-baixar-pdf {
+    top: 15em;
+    right: 11px;
+    color: var(--icone-baixar-pdf);
+}
+
+.btn-scroll-top {
+    right: 15px;
+    bottom: 2em;
+    color: var(--icone-scroll-top);
+}
+
+/* Ajustes para Responsividade */
+@media screen and (max-width: 1024px) {
+    :root {
+        --largura-foto: 160px;
+        --altura-foto: 160px;
+    }
+}
+@media screen and (max-width: 40em) {
+    :root {
+        --largura-foto: 160px;
+        --altura-foto: 160px;
+    }
+
+    .container {
+        margin: 0 auto 40px auto;
+    }
+
+    .container-header h1 {
+        text-align: center;
+    }
+
+    .formacao,
+    .experiencia,
+    .competencias {
+        padding: 0;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 10px;
+        background: var(--branco);
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .btn-imprimir,
+    .btn-baixar-pdf,
+    .btn-scroll-top {
+        position: static;
+    }
+
+}
