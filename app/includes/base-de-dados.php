@@ -6,7 +6,7 @@
 
     $caminho_principal = '://'.$_SERVER['HTTP_HOST'];
     //$url = 'https://www.base.com.br/';
-    $url = 'http://localhost/meu-cv/';
+    $url = 'http://localhost/meu-cv/app/';
     
     // Meus dados
     $informacoes_pessoais = [
