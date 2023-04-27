@@ -5,7 +5,7 @@
     //$canonical = $protocolo . $caminho_completo;
 
     //$caminho_principal = '://'.$_SERVER['HTTP_HOST'];
-    $url = 'https://meu-cv-victor-monterisi.vercel.app/api/';
+    $url = 'https://meu-cv.vercel.app/api/';
     //$url = 'http://localhost/meu-cv/app/';
     
     // Meus dados
