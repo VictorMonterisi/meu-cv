@@ -1,12 +1,12 @@
 <?php
     //Descobre URL
-    //$protocolo = (isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS']=="on") ? "https" : "http");
-    //$caminho_completo = '://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-    //$canonical = $protocolo . $caminho_completo;
+    $protocolo = (isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS']=="on") ? "https" : "http");
+    $caminho_completo = '://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+    $canonical = $protocolo . $caminho_completo;
 
-    //$caminho_principal = '://'.$_SERVER['HTTP_HOST'];
-    $url = 'https://meu-cv.vercel.app/api/';
-    //$url = 'http://localhost/meu-cv/app/';
+    $caminho_principal = '://'.$_SERVER['HTTP_HOST'];
+    $url = 'https://meu-cv.vercel.app/';
+    $url = 'http://localhost/meu-cv/app/';
     
     // Meus dados
     $informacoes_pessoais = [
