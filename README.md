@@ -20,9 +20,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML => Estrutura;
 - CSS => Estilo;
 - JavaScript => Interatividade;
+- PHP => Otimização da estrutura e emprego do conteúdo;
 - html2pdf => Biblioteca JS para converter páginas web em documentos PDF;
 - Git e Github => Versionamento e hospedagem;
-- Vercel => Hospedagem;
+- Vercel => Hospedagem.
 
 ## 💻 Projeto
 
