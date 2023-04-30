@@ -22,6 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript => Interatividade;
 - PHP => Otimização da estrutura e emprego do conteúdo;
 - html2pdf => Biblioteca JS para converter páginas web em documentos PDF;
+- Fontawesome => Biblioteca de ícones;
 - Git e Github => Versionamento e hospedagem;
 - Vercel => Hospedagem.
 
