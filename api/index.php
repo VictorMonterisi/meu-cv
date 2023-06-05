@@ -4,7 +4,7 @@
     include "includes/head.php";
 ?>
 </head>
-<body id="#documento">
+<body>
     <?php include "includes/header.php"; ?>
     <main class="main-content">
         <div class="container">

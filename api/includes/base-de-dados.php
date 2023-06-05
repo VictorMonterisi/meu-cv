@@ -12,6 +12,7 @@
         "dataNascimento" => "08/10/1991",
         "estadoCivil" => "Casado",
         "linkedin" => "https://www.linkedin.com/in/victor-a-b-monterisi/",
+        "gitHub" => "https://github.com/VictorMonterisi",
         "codePen" => "https://codepen.io/victor-monterisi/pens/public", 
         "foto" => "assets/img/eu.jpg",
         "sobre" => "Desenvolvedor front-end focado em soluções para SEO que atualmente visa o aprendizado de linguagens e tecnicas back-end, automação e tratamento de dados.",
