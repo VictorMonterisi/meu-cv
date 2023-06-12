@@ -15,7 +15,7 @@
         "gitHub" => "https://github.com/VictorMonterisi",
         "codePen" => "https://codepen.io/victor-monterisi/pens/public", 
         "foto" => "assets/img/eu.jpg",
-        "sobre" => "Desenvolvedor front-end focado em soluções para SEO que atualmente visa o aprendizado de linguagens e tecnicas back-end, automação e tratamento de dados.",
+        "sobre" => "Desenvolvedor front-end focado em soluções para SEO que atualmente visa o aprendizado de linguagens e técnicas back-end, automação e tratamento de dados.",
         "objetivo" => " Consolidar os meus conhecimentos para encontrar as melhores soluções voltadas ao desenvolvimento aplicações web e para automação.",
     ];
 

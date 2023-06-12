@@ -5,7 +5,7 @@ function downloadPDF() {
 
     let options = {
         margin: 0,
-        filename: "VictorMonterisi.pdf",
+        filename: "Victor Monterisi CV.pdf",
         jsPDF: {unit: 'in', format: 'letter', orientation: 'portrait'}
     } // Parâmetros de formato para o funcionamento da biblioteca html2pdf
     
