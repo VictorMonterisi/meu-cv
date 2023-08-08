@@ -224,20 +224,20 @@ header {
 }
 
 .btn-imprimir {
-    top: 3em;
+    top: 5.5em;
     right: 15px;
     color: var(--icone-imprimir);
 }
 
 .btn-baixar-pdf {
-    top: 5em;
+    top: 7em;
     right: 11px;
     color: var(--icone-baixar-pdf);
 }
 
 .btn-scroll-top {
     right: 15px;
-    bottom: 2em;
+    bottom: 1em;
     color: var(--icone-scroll-top);
 }
 
