@@ -13,7 +13,7 @@
 	<title><?php echo $title; ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>assets/css/main-style.css">
 	<link rel="shortcut icon" href="<?php echo $url; ?>assets/img/favicon.png">
-	<script src="https://kit.fontawesome.com/260410dac7.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/d1ab779ca2.js" crossorigin="anonymous"></script>
 	<script src="<?php echo $url; ?>assets/js/efeito-scroll-top.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="<?php echo $url; ?>assets/js/parametros-download-pdf.js"></script>

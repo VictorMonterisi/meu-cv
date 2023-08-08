@@ -69,6 +69,11 @@
                     ?>
                     <li><i class="fa-brands fa-<?php echo $value; ?>" title="<?php echo $key; ?>"></i><br><span><?php echo $key; ?></span></li>
                     <?php }; ?>
+                    <?php
+                        foreach($tecnologias_extras as $key => $value) {
+                    ?>
+                    <li><i class="fa-solid fa-<?php echo $value; ?>" title="<?php echo $key; ?>"></i><br><span><?php echo $key; ?></span></li>
+                    <?php }; ?>
                 </ul>
             </div>
             <?php include "includes/footer.php"; ?>

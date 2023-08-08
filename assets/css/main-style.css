@@ -191,7 +191,7 @@ header {
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    gap: 1.5em;
+    gap: 2.5em;
     width: 90%;
     margin: 15px auto 0 auto;
 }
@@ -224,13 +224,13 @@ header {
 }
 
 .btn-imprimir {
-    top: 13em;
+    top: 3em;
     right: 15px;
     color: var(--icone-imprimir);
 }
 
 .btn-baixar-pdf {
-    top: 15em;
+    top: 5em;
     right: 11px;
     color: var(--icone-baixar-pdf);
 }
