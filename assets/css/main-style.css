@@ -224,20 +224,20 @@ header {
 }
 
 .btn-imprimir {
-    top: 3em;
+    top: 270px;
     right: 15px;
     color: var(--icone-imprimir);
 }
 
 .btn-baixar-pdf {
-    top: 5em;
+    top: 320px;
     right: 11px;
     color: var(--icone-baixar-pdf);
 }
 
 .btn-scroll-top {
     right: 15px;
-    bottom: 2em;
+    bottom: 20px;
     color: var(--icone-scroll-top);
 }
 
@@ -249,15 +249,15 @@ header {
     }
 
     .btn-imprimir {
-        top: 5.5em;
+        top: 55px;
     }
     
     .btn-baixar-pdf {
-        top: 7em;
+        top: 70px;
     }
     
     .btn-scroll-top {
-        bottom: 1em;
+        bottom: 10px;
     }
 }
 @media screen and (max-width: 40em) {
