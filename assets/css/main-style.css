@@ -230,7 +230,7 @@ header {
 }
 
 .btn-baixar-pdf {
-    top: 320px;
+    top: 330px;
     right: 11px;
     color: var(--icone-baixar-pdf);
 }
@@ -246,18 +246,6 @@ header {
     :root {
         --largura-foto: 160px;
         --altura-foto: 160px;
-    }
-
-    .btn-imprimir {
-        top: 55px;
-    }
-    
-    .btn-baixar-pdf {
-        top: 70px;
-    }
-    
-    .btn-scroll-top {
-        bottom: 10px;
     }
 }
 @media screen and (max-width: 40em) {
