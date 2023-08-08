@@ -224,20 +224,20 @@ header {
 }
 
 .btn-imprimir {
-    top: 5.5em;
+    top: 3em;
     right: 15px;
     color: var(--icone-imprimir);
 }
 
 .btn-baixar-pdf {
-    top: 7em;
+    top: 5em;
     right: 11px;
     color: var(--icone-baixar-pdf);
 }
 
 .btn-scroll-top {
     right: 15px;
-    bottom: 1em;
+    bottom: 2em;
     color: var(--icone-scroll-top);
 }
 
@@ -246,6 +246,18 @@ header {
     :root {
         --largura-foto: 160px;
         --altura-foto: 160px;
+    }
+
+    .btn-imprimir {
+        top: 5.5em;
+    }
+    
+    .btn-baixar-pdf {
+        top: 7em;
+    }
+    
+    .btn-scroll-top {
+        bottom: 1em;
     }
 }
 @media screen and (max-width: 40em) {
