@@ -7,11 +7,7 @@
     "redirects": [
       {
         "source": "/api/includes/(.*)",
-        "destination": "/api/index.php"
-      },
-      {
-        "source": "/assets/(.*)",
-        "destination": "/api/index.php"
+        "destination": "/api/"
       }
     ]
 }
