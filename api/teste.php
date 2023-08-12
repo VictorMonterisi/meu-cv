@@ -1,8 +1,8 @@
 <?php
-
+    include "includes/base-de-dados.php";
     // Função para calcular a idade
-    $data = $informacoes_pessoais["dataNascimento"]; // Colhe a data de nascimento informada no arquivo base-de-dados.php
-    
+    $data = '08/10/1991'; // Colhe a data de nascimento informada no arquivo base-de-dados.php
+
     function calculaIdade($data) {
         $dataDeNascimento = date('d-m-Y', strtotime($data)); // Converte a data para o formado m-d-Y
 
