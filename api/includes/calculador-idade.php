@@ -15,5 +15,6 @@
         } elseif (date('m') == $mesNascimento && date('d') < $diaNascimento) {
             $idade--; //Caso a data atual coincidir com o mês de nascimento, mas o dia for antes do aniversário, remove uma unidade
         }
+
+        echo $idade; // Exibe a idade
     }
-    calculaIdade($data);

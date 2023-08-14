@@ -9,6 +9,7 @@
         "ultimoNome" => "Monterisi",
         "nomeInteiro" => "Victor Augusto Bonaldi Monterisi",
         "email" => "victormonterisi@gmail.com",
+        "celular" => "(11) 91355-2692",
         "dataNascimento" => "08/10/1991",
         "estadoCivil" => "Casado",
         "linkedin" => "https://www.linkedin.com/in/victor-a-b-monterisi/",

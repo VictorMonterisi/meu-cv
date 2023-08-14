@@ -13,6 +13,7 @@
             <ul>
                 <li><i class="fa-solid fa-ring"></i> <?php echo $informacoes_pessoais["estadoCivil"]; ?></li>
                 <li><i class="fa-solid fa-sun"></i> <?php calculaIdade($data); ?> anos</li>
+                <li><i class="fa-solid fa-mobile-screen-button"></i> <a href="tel:<?php echo $informacoes_pessoais["celular"]; ?>" target="_blank" title="<?php echo $informacoes_pessoais["celular"]; ?>"><?php echo $informacoes_pessoais["celular"]; ?></a></li>
                 <li><i class="fa-solid fa-envelope"></i> <a href="mailto:<?php echo $informacoes_pessoais["email"]; ?>" title="<?php echo $informacoes_pessoais["email"]; ?>"><?php echo $informacoes_pessoais["email"]; ?></a></li>
                 <li><i class="fa-brands fa-linkedin-in"></i> <a href="<?php echo $informacoes_pessoais["linkedin"]; ?>" target="_blank" title="<?php echo $informacoes_pessoais["linkedin"]; ?>"><?php echo $informacoes_pessoais["linkedin"]; ?></a></li>
                 <li><i class="fa-brands fa-github"></i> <a href="<?php echo $informacoes_pessoais["gitHub"]; ?>" target="_blank" title="<?php echo $informacoes_pessoais["gitHub"]; ?>"><?php echo $informacoes_pessoais["gitHub"]; ?></a></li>
