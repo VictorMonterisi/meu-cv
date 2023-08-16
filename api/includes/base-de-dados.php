@@ -28,7 +28,7 @@
         ],
         "cargo_3" => [
             "nome" => "Desenvolvedor Web",
-            "tempo" => "12/2018 à 11/2021",
+            "tempo" => "12/2018 à 10/2021",
             "descricao" => "Desenvolvimento de websites com foco no posicionamento orgânico (seguindo as boas práticas da web e recomendações do W3C), edição de imagens, gerenciamento de campanhas SEO, elaboração de orçamentos referente ao serviço de posicionamento orgânico, apontamento de websites, suporte ao cliente nas questões de atualizações do site, recolhimento de feedback do cliente sobre os serviços prestados, manejamento de hospedagem e suporte de e-mails (criação e configuração)."
         ],
         "cargo_2" => [
@@ -38,7 +38,7 @@
         ],
         "cargo_1" => [
             "nome" => "Assistente de Marketing",
-            "tempo" => "06/2016 à 07/2017",
+            "tempo" => "06/2016 à 06/2017",
             "descricao" => "Elaboração de orçamentos referente ao serviço de posicionamento orgânico, captação e gerenciamento de leads."
         ]
     ];
