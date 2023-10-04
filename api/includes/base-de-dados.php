@@ -16,8 +16,8 @@
         "gitHub" => "https://github.com/VictorMonterisi",
         "codePen" => "https://codepen.io/victor-monterisi/pens/public", 
         "foto" => "assets/img/eu.jpg",
-        "sobre" => "Redator / Produtor de Conteúdo e Desenvolvedor Web focado na criação de soluções que sirvam tanto para o front-end quanto para back-end.",
-        //"sobre" => "Desenvolvedor Web focado na criação de soluções que sirvam tanto para o front-end quanto para back-end.",
+        //"sobre" => "Redator / Produtor de Conteúdo e Desenvolvedor Web focado na criação de soluções que sirvam tanto para o front-end quanto para back-end.",
+        "sobre" => "Desenvolvedor Web focado na criação de soluções que sirvam tanto para o front-end quanto para back-end.",
         "objetivo" => " Consolidar os meus conhecimentos para encontrar as melhores soluções voltadas ao desenvolvimento aplicações web e para automação.",
     ];
 
