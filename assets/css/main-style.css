@@ -189,7 +189,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     gap: 2.5em;
     width: 90%;
