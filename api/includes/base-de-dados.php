@@ -70,9 +70,11 @@
         "JavaScript" => "js",
         "NodeJs" => "node",
         "Python" => "python",
+        "cPanel" => "cpanel",
+        "WHM" => "whmcs",
         "Git" => "git",
         "GitHub" => "github",
-        "GitLab" => "gitlab"
+        //"GitLab" => "gitlab"
     ];
 
     $tecnologias_extras = [
