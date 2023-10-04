@@ -74,7 +74,7 @@
         "WHM" => "whmcs",
         "Git" => "git",
         "GitHub" => "github",
-        //"GitLab" => "gitlab"
+        "GitLab" => "gitlab"
     ];
 
     $tecnologias_extras = [
