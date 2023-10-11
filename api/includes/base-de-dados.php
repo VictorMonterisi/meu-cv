@@ -70,6 +70,7 @@
         "JavaScript" => "js",
         "NodeJs" => "node",
         "Python" => "python",
+        "Java" => "java"
         "cPanel" => "cpanel",
         "WHM" => "whmcs",
         "Git" => "git",
