@@ -196,6 +196,10 @@ header {
     margin: 15px auto 0 auto;
 }
 
+.tecnologias li {
+    width: 10em;
+}
+
 .tecnologias li i {
     font-size: var(--fonte-icones);
 }
@@ -251,11 +255,7 @@ header {
 
 @media screen and (max-width: 800px) {
     .tecnologias {
-        gap: 2em 7em;
-    }
-    
-    .tecnologias li {
-        width: 10em;
+        gap: 2em 5em;
     }
 }
 
