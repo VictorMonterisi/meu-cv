@@ -191,7 +191,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    gap: 2.5em;
+    gap: 2.5em 6em;
     width: 90%;
     margin: 15px auto 0 auto;
 }
@@ -246,6 +246,16 @@ header {
     :root {
         --largura-foto: 160px;
         --altura-foto: 160px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tecnologias {
+        gap: 2em 7em;
+    }
+    
+    .tecnologias li {
+        width: 10em;
     }
 }
 
