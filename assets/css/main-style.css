@@ -279,6 +279,10 @@ header {
         padding: 0;
     }
     
+    .tecnologias li {
+        width: 7em;
+    }
+
     footer {
         position: fixed;
         bottom: 10px;
