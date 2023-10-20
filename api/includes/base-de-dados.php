@@ -16,9 +16,8 @@
         "gitHub" => "https://github.com/VictorMonterisi",
         "codePen" => "https://codepen.io/victor-monterisi/pens/public", 
         "foto" => "assets/img/eu.jpg",
-        //"sobre" => "Redator / Produtor de Conteúdo e Desenvolvedor Web focado na criação de soluções que sirvam tanto para o front-end quanto para back-end.",
-        "sobre" => "Desenvolvedor Web focado na criação de soluções que sirvam tanto para o front-end quanto para back-end.",
-        "objetivo" => " Consolidar os meus conhecimentos para encontrar as melhores soluções voltadas ao desenvolvimento aplicações web e para automação.",
+        "sobre" => "Redator / Copywriter e Desenvolvedor Web focado na criação de soluções que proporcionem valor tanto à empresa contratante, quanto aos clientes.",
+        "objetivo" => "Busco consolidar e aplicar meus conhecimentos para oferecer soluções excepcionais, proporcionando conteúdos cativantes e sistemas/sites altamente eficazes. Estou comprometido em contribuir significativamente, seja na criação de narrativas persuasivas ou no desenvolvimento de experiências online inovadoras."
     ];
 
     $experiencias_profissionais = [
@@ -55,8 +54,8 @@
     ];
 
     $compentencias = [
-        "Kanban",
-        "Scrum",
+        "Redação de Conteúdos Criativos e Cativantes",
+        "Desenvolvimento de Soluções Web",
         "Hospedagem de Sites",
         "Desenvolvimento de Sites e LPs Responsivos(as)",
         "SEO"
