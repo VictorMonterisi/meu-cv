@@ -54,11 +54,11 @@
     ];
 
     $compentencias = [
-        "Redação de Conteúdos Criativos e Cativantes",
-        "Desenvolvimento de Soluções Web",
-        "Hospedagem de Sites",
-        "Desenvolvimento de Sites e LPs Responsivos(as)",
-        "SEO"
+        "Redação de Conteúdos Criativos e Cativantes;",
+        "Desenvolvimento de Soluções Web;",
+        "Hospedagem de Sites;",
+        "Desenvolvimento de Sites e LPs Responsivos(as);",
+        "SEO."
     ];
 
     $tecnologias_conhecidas = [
