@@ -32,8 +32,8 @@
                 </div>
             </div>
             <div class="area-cursos-complementares">
+                <h2>Cursos e Habilidades Complementares</h2>
                 <div class="formacao">
-                    <h2>Cursos e Habilidades Complementares</h2>
                     <?php
                         foreach($cursos as $curso => $value) {
                     ?>
