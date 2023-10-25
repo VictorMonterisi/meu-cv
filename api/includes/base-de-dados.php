@@ -16,8 +16,9 @@
         "gitHub" => "https://github.com/VictorMonterisi",
         "codePen" => "https://codepen.io/victor-monterisi/pens/public", 
         "foto" => "assets/img/eu.jpg",
-        "sobre" => "Redator / Copywriter e Desenvolvedor Web focado na criação de soluções que proporcionem valor tanto à empresa contratante, quanto aos clientes.",
-        "objetivo" => "Busco consolidar e aplicar meus conhecimentos para oferecer soluções excepcionais, proporcionando conteúdos cativantes e sistemas/sites altamente eficazes. Estou comprometido em contribuir significativamente, seja na criação de narrativas persuasivas ou no desenvolvimento de experiências online inovadoras."
+        // "sobre" => "Redator / Copywriter e Desenvolvedor Web focado na criação de soluções que proporcionem valor tanto à empresa contratante, quanto aos clientes.",
+        "sobre" => "Desenvolvedor Web focado na criação de soluções que proporcionem valor tanto à empresa contratante, quanto aos clientes.",
+        "objetivo" => "Busco consolidar e aplicar meus conhecimentos para oferecer soluções excepcionais, proporcionando sistemas / sites altamente eficazes. Estou comprometido em contribuir significativamente, seja na criação de funcionalidades que atendam às necessidades do projeto ou no desenvolvimento de experiências online inovadoras."
     ];
 
     $experiencias_profissionais = [
