@@ -37,11 +37,12 @@
                     <?php
                         foreach($cursos as $curso => $value) {
                     ?>
+                        <h3><?php echo $curso; ?></h3>
                         <div class="curso">
-                            <h3><?php echo $curso; ?></h3>
-                            <p><?php echo $value["instituicaoDeEnsino"]; ?></p>
+                            <h4><?php echo $value["instituicaoDeEnsino"]; ?></h4>
                             <p><?php echo $value["dataDeEmissao"]; ?></p>
                             <p><?php echo $value["cargaHoraria"]; ?></p>
+                            <p><a href="<?php echo $value["certificado"]; ?>" title="<?php echo "Certificado {$curso}"; ?>" target="_blank">Ver Certificado <i class="fa-solid fa-file-pdf"></i></a></p>
                         </div>
                     <?php }; ?>
                 </div>

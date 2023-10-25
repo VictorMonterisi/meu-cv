@@ -33,7 +33,9 @@ body {
     --altura-foto: 200px;
     --padding-container: 30px 0;
     --link: var(--azul-claro);
+    --link-certificado: var(--vermelho);
     --link-visitado: var(--cinza);
+    --link-certificado-visitado: var(--preto);
     --icone-scroll-top: var(--azul);
     --icone-imprimir: var(--azul);
     --icone-baixar-pdf: var(--vermelho);
@@ -169,6 +171,7 @@ header {
 .area-sobre,
 .area-objetivo,
 .area-formacao,
+.area-cursos-complementares,
 .area-experiencia,
 .area-competencias {
     padding: 0 0 15px 0;
@@ -184,6 +187,15 @@ header {
 .area-funcao,
 .curso {
     padding: 0 0 0 30px;
+}
+
+a.curso {
+    text-decoration: none;
+    color: var(--link-curso);
+}
+
+a:visited.curso {
+    color: var(--link-curso-visitado);
 }
 
 .tecnologias {

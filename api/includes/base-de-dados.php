@@ -38,17 +38,20 @@
         Python" => [
             "instituicaoDeEnsino" => "Santander Universidades",
             "dataDeEmissao" => "22/10/2023",
-            "cargaHoraria" => "89 horas"
+            "cargaHoraria" => "89 horas",
+            "certificado" => "https://drive.google.com/file/d/1GMxM8qh0YnyKnhhBzgxyGM0nz05pNJ8B/view?usp=sharing"
         ],
         "Projetos Ágeis com Scrum" => [
             "instituicaoDeEnsino" => "DIO",
             "dataDeEmissao" => "06/12/2021",
-            "cargaHoraria" => "2 horas"
+            "cargaHoraria" => "2 horas",
+            "certificado" => "https://drive.google.com/file/d/19AmIQUK51sX2ieDwrWCpWCHTe1AdtWvN/view?usp=sharing"
         ],
         "Introdução a Linguagem de Programação: HTML, CSS, JavaScript e PHP" => [
             "instituicaoDeEnsino" => "DIO",
             "dataDeEmissao" => "17/08/2021",
-            "cargaHoraria" => "170 horas"
+            "cargaHoraria" => "170 horas",
+            "certificado" => "https://drive.google.com/file/d/1JwFydif8U8XSOz1pJlZzb32G4qjulmV9/view?usp=sharing"
         ]
     ];
 
