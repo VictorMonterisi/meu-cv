@@ -191,11 +191,11 @@ header {
 
 .curso a {
     text-decoration: none;
-    color: var(--link-curso)!important;
+    color: var(--link-certificado)!important;
 }
 
 .curso a:visited {
-    color: var(--link-curso-visitado);
+    color: var(--link-certificado-visitado)!important;
 }
 
 .tecnologias {
