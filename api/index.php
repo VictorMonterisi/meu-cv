@@ -31,6 +31,21 @@
                     <?php }; ?>
                 </div>
             </div>
+            <div class="area-cursos-complementares">
+                <div class="cursos-complementares">
+                    <h2>Cursos e Habilidades Complementares</h2>
+                    <?php
+                        foreach($cursos as $curso => $value) {
+                    ?>
+                        <div>
+                            <h3><?php echo $curso; ?></h3>
+                            <p><?php echo $value["instituicaoDeEnsino"]; ?></p>
+                            <p><?php echo $value["dataDeEmissao"]; ?></p>
+                            <p><?php echo $value["cargaHoraria"]; ?></p>
+                        </div>
+                    <?php }; ?>
+                </div>
+            </div>
             <div class="area-experiencia">
                 <h2>Experiências</h2>
                 <div class="experiencia">

@@ -169,6 +169,7 @@ header {
 .area-sobre,
 .area-objetivo,
 .area-formacao,
+.area-cursos-complementares,
 .area-experiencia,
 .area-competencias {
     padding: 0 0 15px 0;
@@ -176,6 +177,7 @@ header {
 
 .formacao,
 .experiencia,
+.cursos-complementares,
 .competencias {
     padding: 0 0 0 15px;
 }

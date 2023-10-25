@@ -33,6 +33,25 @@
         ]
     ];
 
+    $cursos = [
+        "Santander Bootcamp 2023 - Ciência de Dados com
+        Python" => [
+            "instituicaoDeEnsino" => "Santander Universidades",
+            "dataDeEmissao" => "22/10/2023",
+            "cargaHoraria" => "89 horas"
+        ],
+        "Projetos Ágeis com Scrum" => [
+            "instituicaoDeEnsino" => "DIO",
+            "dataDeEmissao" => "06/12/2021",
+            "cargaHoraria" => "2 horas"
+        ],
+        "Introdução a Linguagem de Programação: HTML, CSS, JavaScript e PHP" => [
+            "instituicaoDeEnsino" => "DIO",
+            "dataDeEmissao" => "17/08/2021",
+            "cargaHoraria" => "170 horas"
+        ]
+    ];
+
     $formacao_academica = [
         "curso_1" => [
             "instituicaoDeEnsino" => "Universidade Estácio de Sá", 
@@ -48,6 +67,7 @@
         "Desenvolvimento de Soluções Web;",
         "Hospedagem de Sites;",
         "Desenvolvimento de Sites e LPs Responsivos(as);",
+        "Inglês Técnico - Avançado;",
         "SEO."
     ];
 
