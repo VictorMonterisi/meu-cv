@@ -189,12 +189,12 @@ header {
     padding: 0 0 0 30px;
 }
 
-a.curso {
+.curso a {
     text-decoration: none;
-    color: var(--link-curso);
+    color: var(--link-curso)!important;
 }
 
-a:visited.curso {
+.curso a:visited {
     color: var(--link-curso-visitado);
 }
 
