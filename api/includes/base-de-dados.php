@@ -41,12 +41,12 @@
             "cargaHoraria" => "89 horas",
             "certificado" => "https://drive.google.com/file/d/1GMxM8qh0YnyKnhhBzgxyGM0nz05pNJ8B/view?usp=sharing"
         ],
-        "Projetos Ágeis com Scrum" => [
-            "instituicaoDeEnsino" => "DIO",
-            "dataDeEmissao" => "06/12/2021",
-            "cargaHoraria" => "2 horas",
-            "certificado" => "https://drive.google.com/file/d/19AmIQUK51sX2ieDwrWCpWCHTe1AdtWvN/view?usp=sharing"
-        ],
+        // "Projetos Ágeis com Scrum" => [
+        //     "instituicaoDeEnsino" => "DIO",
+        //     "dataDeEmissao" => "06/12/2021",
+        //     "cargaHoraria" => "2 horas",
+        //     "certificado" => "https://drive.google.com/file/d/19AmIQUK51sX2ieDwrWCpWCHTe1AdtWvN/view?usp=sharing"
+        // ],
         "Introdução a Linguagem de Programação: HTML, CSS, JavaScript e PHP" => [
             "instituicaoDeEnsino" => "Estácio Cursos Livres",
             "dataDeEmissao" => "17/08/2021",
