@@ -37,7 +37,7 @@
                     <?php
                         foreach($cursos as $curso => $value) {
                     ?>
-                        <div>
+                        <div class="curso">
                             <h3><?php echo $curso; ?></h3>
                             <p><?php echo $value["instituicaoDeEnsino"]; ?></p>
                             <p><?php echo $value["dataDeEmissao"]; ?></p>
