@@ -190,6 +190,7 @@ header {
 }
 
 .curso a {
+    display: var(--status-display);
     text-decoration: none;
     color: var(--link-certificado);
 }
