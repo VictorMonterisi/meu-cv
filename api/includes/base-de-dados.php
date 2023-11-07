@@ -78,7 +78,7 @@
         "CSS 3" => "css3-alt",
         "Bootstrap" => "bootstrap",
         "PHP" => "php",
-        "Laravel" => "laravel",
+        // "Laravel" => "laravel",
         "Python" => "python",
         // "cPanel" => "cpanel",
         // "WHM" => "whmcs",
