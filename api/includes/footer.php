@@ -2,12 +2,12 @@
     <div class="btn-idioma">
 
         <?php
-            if($_SERVER['REQUEST_URI'] == '/meu-cv/api/index.php') {
+            if($_SERVER['REQUEST_URI'] == '/api/index.php') {
                 $url_idioma = "{$url}api/index-eng.php";
                 $img_idioma = "{$url}assets/img/usa.png";
                 $title = 'ENG';
                 $txt = 'Click to translate';
-            } else if ($_SERVER['REQUEST_URI'] == '/meu-cv/api/index-eng.php') {
+            } else if ($_SERVER['REQUEST_URI'] == '/api/index-eng.php') {
                 $url_idioma = "{$url}api/index.php";
                 $img_idioma = "{$url}assets/img/br.png";
                 $title = 'PT-BR';

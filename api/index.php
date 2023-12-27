@@ -2,8 +2,6 @@
     include "includes/base-de-dados.php";
     include "includes/calculador-idade.php";
     include "includes/head.php";
-    
-    $teste = $_SERVER['REQUEST_URI'];
 ?>
 </head>
 
