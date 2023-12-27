@@ -1,17 +1,17 @@
-<h1 align="center">Meu Curriculum Vitae</h1>
+<h1 align="center">Meu Curriculum Vitae | My Curriculum Vitae</h1>
+
+<p align="center">
+  <a href="#-pt-br">🇧🇷 PT-BR</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-eng">🇺🇸 ENG</a>&nbsp;&nbsp;&nbsp;
+</p>
+
+<p align="center">
+  <img alt="Victor's CV" src=".github/preview.gif" width="100%">
+</p>
+
+## 🇧🇷 PT-BR
 
 <p align="center">Página web desenvolvida para exibir as minhas principais informações e experiências profissionais, de maneira simples e eficaz.</p>
-
-<p align="center">
-  <a href="#-tecnologias">🚀 Tecnologias Usadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">💻 Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;
-</p>
-
-<br>
-
-<p align="center">
-  <img alt="Meu CV" src=".github/preview.gif" width="100%">
-</p>
 
 ## 🚀 Tecnologias
 
@@ -29,3 +29,24 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Desenvolvida com uma estrutura similar a uma landing page, essa webpage tem o objetivo de apresentar minhas principais informações compondo o meu portfólio.
+
+## 🇺🇸 ENG
+
+<p align="center">Web page developed to display my key information and professional experiences in a simple and effective manner.</p>
+
+## 🚀 Technologies
+
+This project was developed using the following technologies:
+
+- HTML => Structure;
+- CSS => Style;
+- JavaScript => Interactivity;
+- PHP => Optimization of structure and content implementation;
+- html2pdf => JavaScript library to convert web pages into PDF documents;
+- Fontawesome => Icon library;
+- Git and Github => Version control and hosting;
+- Vercel => Hosting.
+
+## 💻 Project
+
+Developed with a structure similar to a landing page, this webpage aims to present my key information, comprising my portfolio.
