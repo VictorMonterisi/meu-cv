@@ -1,7 +1,12 @@
 <?php
 
-    $caminho_principal = '://'.$_SERVER['HTTP_HOST'];
-    $url = 'https://meu-cv.vercel.app/';
+    if($_SERVER['HTTP_HOST'] == 'localhost') {
+        $url = 'http://localhost/meu-cv/';
+    } else if ($_SERVER['HTTP_HOST'] == 'meu-cv.vercel.app') {
+        $url = 'https://meu-cv.vercel.app/';
+    } else {
+        die();
+    }
     
     // Meus dados
     $informacoes_pessoais = [

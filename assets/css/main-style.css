@@ -223,6 +223,54 @@ header {
 }
 
 /* Estilo dos Botões */
+
+.btn-idioma {
+    position: fixed;
+    top: 25px;
+    right: 21px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.btn-idioma a {
+    text-decoration: none;
+}
+
+.btn-idioma a img {
+    box-shadow: 0 0 8px 1px var(--preto);
+    border-radius: 6px;
+    padding: 1px 5px;
+    background: rgb(255 255 255 / 75%);
+    transition: all ease 0.5s;
+}
+
+.btn-idioma a:hover img {
+    box-shadow: 0 0 8px 1px var(--branco);
+    border-radius: 6px;
+    padding: 1px 5px;
+    background: rgb(255 255 255 / 75%);
+    transition: all ease 0.5s;
+}
+
+.btn-idioma a p {
+    position: fixed;
+    top: 30px;
+    right: 70px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.5s;
+    color: var(--preto);
+    background: var(--branco);
+    padding: 2px 3px;
+    border-radius: 5px;
+}
+
+.btn-idioma a:hover p {
+    visibility: visible;
+    opacity: 1;
+    transition: all ease 0.5s;
+}
+
 .btn-imprimir,
 .btn-baixar-pdf,
 .btn-scroll-top {
@@ -267,11 +315,11 @@ header {
     }
 }
 
-/* @media screen and (max-width: 800px) {
-    .tecnologias {
-        gap: 2em 5em;
+@media screen and (max-width: 800px) {
+    .btn-idioma a p {
+        display: none;
     }
-} */
+}
 
 @media screen and (max-width: 40em) {
     :root {
