@@ -4,8 +4,6 @@
         $url = 'http://localhost/meu-cv/';
     } else if ($_SERVER['HTTP_HOST'] == 'meu-cv.vercel.app') {
         $url = 'https://meu-cv.vercel.app/';
-    } else {
-        die();
     }
     
     // Meus dados
