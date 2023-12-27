@@ -205,7 +205,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    gap: 2.5em 6em;
+    gap: 7px;
     width: 90%;
     margin: 15px auto 0 auto;
 }
@@ -267,11 +267,11 @@ header {
     }
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .tecnologias {
         gap: 2em 5em;
     }
-}
+} */
 
 @media screen and (max-width: 40em) {
     :root {
