@@ -212,6 +212,7 @@ header {
 
 .tecnologias li {
     width: 10em;
+    flex: 1;
 }
 
 .tecnologias li i {
@@ -271,6 +272,9 @@ header {
     .tecnologias {
         gap: 2em 5em;
     }
+    .tecnologias li {
+        flex: auto;
+    }
 }
 
 @media screen and (max-width: 40em) {
@@ -295,6 +299,7 @@ header {
     
     .tecnologias li {
         width: 7em;
+        flex: auto;
     }
 
     footer {
