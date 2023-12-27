@@ -74,7 +74,7 @@
         "Desenvolvimento de Sites e LPs Responsivos(as);",
         "Conexões com Banco de Dados;",
         "Hospedagem de Sites;",
-        "Inglês Técnico - Avançado;",
+        "Inglês Técnico;",
         "SEO."
     ];
 
