@@ -6,7 +6,6 @@
 </head>
 
 <body>
-    <h1><?php echo $teste; ?></h1>
     <?php include "includes/header.php"; ?>
     <main class="main-content">
         <div class="container">
