@@ -55,8 +55,8 @@ body {
     --largura-container: 95%;
     --background: var(--branco);
     --color-header: var(--preto);
-    --largura-foto: 140px;
-    --altura-foto: 140px;
+    --largura-foto: 100px;
+    --altura-foto: 100px;
     --padding-container: 0;
     --link: var(--preto);
     --link-visitado: var(--preto);
@@ -79,8 +79,8 @@ body {
     --largura-container: 95%;
     --background: var(--branco);
     --color-header: var(--preto);
-    --largura-foto: 160px;
-    --altura-foto: 160px;
+    --largura-foto: 100px;
+    --altura-foto: 100px;
     --padding-container: 0;
     --link: var(--preto);
     --link-visitado: var(--preto);
