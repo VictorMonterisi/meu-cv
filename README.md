@@ -30,6 +30,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Desenvolvida com uma estrutura similar a uma landing page, essa webpage tem o objetivo de apresentar minhas principais informações compondo o meu portfólio.
 
+<br>
+<br>
+<br>
+
 ## 🇺🇸 ENG
 
 <p align="center">Web page developed to display my key information and professional experiences in a simple and effective manner.</p>
