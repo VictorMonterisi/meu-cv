@@ -133,7 +133,7 @@ h4 {
 p,
 li {
     font-size: var(--fonte-conteudo);
-    line-height: 1.4em;
+    line-height: 150%;
 }
 
 ul li {
