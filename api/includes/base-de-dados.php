@@ -81,6 +81,7 @@
     $tecnologias_conhecidas = [
         "HTML 5" => "html5",
         "CSS 3" => "css3-alt",
+        "Sass" => "sass",
         "Bootstrap" => "bootstrap",
         "PHP" => "php",
         // "Laravel" => "laravel",
@@ -89,7 +90,6 @@
         // "WHM" => "whmcs",
         "Git" => "git",
         "GitHub" => "github",
-        // "GitLab" => "gitlab",
         "JavaScript" => "js"
     ];
 
