@@ -1,15 +1,15 @@
 <h1 align="center">Meu Curriculum Vitae | My Curriculum Vitae</h1>
 
 <p align="center">
-  <a href="#-pt-br">🇧🇷 PT-BR</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-eng">🇺🇸 ENG</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-pt-br"><img href=".github/br.png" alt="PT-BR" /> PT-BR</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-eng"><img href=".github/usa.png" alt="ENG" /> ENG</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
   <img alt="Victor's CV" src=".github/preview.gif" width="100%">
 </p>
 
-## 🇧🇷 PT-BR
+## <img href=".github/br.png" alt="PT-BR" /> PT-BR
 
 <p align="center">Página web desenvolvida para exibir as minhas principais informações e experiências profissionais, de maneira simples e eficaz.</p>
 
@@ -34,7 +34,7 @@ Desenvolvida com uma estrutura similar a uma landing page, essa webpage tem o ob
 <br>
 <br>
 
-## 🇺🇸 ENG
+## <img href=".github/usa.png" alt="ENG" /> ENG
 
 <p align="center">Web page developed to display my key information and professional experiences in a simple and effective manner.</p>
 
