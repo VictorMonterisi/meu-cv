@@ -11,7 +11,7 @@
 
 ## <img src=".github/br.png" alt="PT-BR" /> PT-BR
 
-<p align="center">Página web desenvolvida para exibir as minhas principais informações e experiências profissionais, de maneira simples e eficaz.</p>
+Página web desenvolvida para exibir as minhas principais informações e experiências profissionais, de maneira simples e eficaz.
 
 ## 🚀 Tecnologias
 
@@ -36,7 +36,7 @@ Desenvolvida com uma estrutura similar a uma landing page, essa webpage tem o ob
 
 ## <img src=".github/usa.png" alt="ENG" /> ENG
 
-<p align="center">Web page developed to display my key information and professional experiences in a simple and effective manner.</p>
+Web page developed to display my key information and professional experiences in a simple and effective manner.
 
 ## 🚀 Technologies
 
