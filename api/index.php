@@ -2,9 +2,13 @@
     include "includes/base-de-dados.php";
     include "includes/calculador-idade.php";
     include "includes/head.php";
+    
+    $teste = $_SERVER['REQUEST_URI'];
 ?>
 </head>
+
 <body>
+    <h1><?php echo $teste; ?></h1>
     <?php include "includes/header.php"; ?>
     <main class="main-content">
         <div class="container">
@@ -22,12 +26,13 @@
                     <?php
                         foreach($formacao_academica as $key => $value) { 
                     ?>
-                        <h3><?php echo $value["nomeDoCurso"]; ?></h3>
-                        <div class="curso">
-                            <h4><?php echo $value["instituicaoDeEnsino"]; ?></h4>
-                            <p><?php echo $value["tipoDaGraducao"]; ?></p>
-                            <p><?php echo "Início: {$value['dataDeInicio']} | Conclusão: {$value['dataDeConclusao']}"; ?></p>
-                        </div>
+                    <h3><?php echo $value["nomeDoCurso"]; ?></h3>
+                    <div class="curso">
+                        <h4><?php echo $value["instituicaoDeEnsino"]; ?></h4>
+                        <p><?php echo $value["tipoDaGraducao"]; ?></p>
+                        <p><?php echo "Início: {$value['dataDeInicio']} | Conclusão: {$value['dataDeConclusao']}"; ?>
+                        </p>
+                    </div>
                     <?php }; ?>
                 </div>
             </div>
@@ -37,13 +42,14 @@
                     <?php
                         foreach($cursos as $curso => $value) {
                     ?>
-                        <h3><?php echo $curso; ?></h3>
-                        <div class="curso">
-                            <h4><?php echo $value["instituicaoDeEnsino"]; ?></h4>
-                            <p><?php echo $value["dataDeEmissao"]; ?></p>
-                            <p><?php echo $value["cargaHoraria"]; ?></p>
-                            <p><a href="<?php echo $value["certificado"]; ?>" title="<?php echo "Certificado {$curso}"; ?>" target="_blank">Ver Certificado <i class="fa-solid fa-file-pdf"></i></a></p>
-                        </div>
+                    <h3><?php echo $curso; ?></h3>
+                    <div class="curso">
+                        <h4><?php echo $value["instituicaoDeEnsino"]; ?></h4>
+                        <p><?php echo $value["dataDeEmissao"]; ?></p>
+                        <p><?php echo $value["cargaHoraria"]; ?></p>
+                        <p><a href="<?php echo $value["certificado"]; ?>" title="<?php echo "Certificado {$curso}"; ?>"
+                                target="_blank">Ver Certificado <i class="fa-solid fa-file-pdf"></i></a></p>
+                    </div>
                     <?php }; ?>
                 </div>
             </div>
@@ -83,12 +89,14 @@
                     <?php
                         foreach($tecnologias_conhecidas as $key => $value) {
                     ?>
-                    <li><i class="fa-brands fa-<?php echo $value; ?>" title="<?php echo $key; ?>"></i><br><span><?php echo $key; ?></span></li>
+                    <li><i class="fa-brands fa-<?php echo $value; ?>"
+                            title="<?php echo $key; ?>"></i><br><span><?php echo $key; ?></span></li>
                     <?php }; ?>
                     <?php
                         foreach($tecnologias_extras as $key => $value) {
                     ?>
-                    <li><i class="fa-solid fa-<?php echo $value; ?>" title="<?php echo $key; ?>"></i><br><span><?php echo $key; ?></span></li>
+                    <li><i class="fa-solid fa-<?php echo $value; ?>"
+                            title="<?php echo $key; ?>"></i><br><span><?php echo $key; ?></span></li>
                     <?php }; ?>
                 </ul>
             </div>
@@ -96,4 +104,5 @@
         </div>
     </main>
 </body>
+
 </html>
