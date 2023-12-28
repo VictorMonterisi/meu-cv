@@ -14,10 +14,10 @@
                 <li><i class="fa-solid fa-ring"></i> <?php echo $tr->translate($informacoes_pessoais["estadoCivil"]); ?>
                 </li>
                 <li><i class="fa-solid fa-sun"></i> <?php calculaIdade($data); ?> years</li>
-                <li><i class="fa-solid fa-mobile-screen-button"></i> <a
-                        href="tel:<?php echo $informacoes_pessoais["celular"]; ?>" target="_blank"
-                        title="<?php echo $informacoes_pessoais["celular"]; ?>"><?php echo $informacoes_pessoais["celular"]; ?></a>
-                </li>
+                <!--<li><i class="fa-solid fa-mobile-screen-button"></i> <a
+                        href="tel:<?php //echo $informacoes_pessoais["celular"]; ?>" target="_blank"
+                        title="<?php //echo $informacoes_pessoais["celular"]; ?>"><?php //echo $informacoes_pessoais["celular"]; ?></a>
+                </li>-->
                 <li><i class="fa-solid fa-envelope"></i> <a href="mailto:<?php echo $informacoes_pessoais["email"]; ?>"
                         title="<?php echo $informacoes_pessoais["email"]; ?>"><?php echo $informacoes_pessoais["email"]; ?></a>
                 </li>
