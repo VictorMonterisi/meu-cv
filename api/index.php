@@ -53,10 +53,10 @@
             <div class="area-experiencia">
                 <h2>Experiências</h2>
                 <div class="experiencia">
-                    <h3>Quality SMI</h3>
                     <?php
                         foreach($experiencias_profissionais as $key => $value) {
                     ?>
+                    <h3><?php echo $key; ?></h3>
                     <div class="area-funcao">
                         <div class="area-nome-tempo-funcao">
                             <h4><?php echo $value["nome"]; ?></h4>

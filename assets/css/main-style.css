@@ -124,10 +124,12 @@ h2 {
 
 h3 {
     font-size: var(--font-h3);
+    color: var(--azul);
+    margin: 7px 0;
 }
 h4 {
     font-size: var(--font-h4);
-    margin: 15px 0 0 0;
+    margin: 7px 0 0 0;
 }
 
 p,

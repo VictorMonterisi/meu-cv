@@ -24,21 +24,26 @@
     ];
 
     $experiencias_profissionais = [
-        "cargo_3" => [
+        "Gokei Tecnologia" => [
+            "nome" => "Desenvolvedor Full Stack",
+            "tempo" => "12/2023 até o momento",
+            "descricao" => "Desenvolvimento e manutenção de sistemas web."
+        ],
+        "Quality SMI" => [
             "nome" => "Desenvolvedor Web",
             "tempo" => "11/2018 à 12/2022",
             "descricao" => "Desenvolvimento de websites, edição de imagens, gerenciamento de campanhas SEO, apontamento de websites, suporte ao cliente e funcionários internos, administração de hospedagem e suporte de e-mails (criação e configuração)."
-        ],
-        "cargo_2" => [
-            "nome" => "Redator",
-            "tempo" => "07/2017 à 11/2018",
-            "descricao" => "Construção de conteúdos para fomentar o engajamento, desenvolvimento de material destinado a e-mail marketing e revisão."
-        ],
-        "cargo_1" => [
-            "nome" => "Assistente de Marketing",
-            "tempo" => "06/2016 à 06/2017",
-            "descricao" => "Atendimento ao cliente, elaboração de orçamentos referente aos serviços de marketing digital, captação e gerenciamento de leads."
         ]
+        // "cargo_2" => [
+        //     "nome" => "Redator",
+        //     "tempo" => "07/2017 à 11/2018",
+        //     "descricao" => "Construção de conteúdos para fomentar o engajamento, desenvolvimento de material destinado a e-mail marketing e revisão."
+        // ],
+        // "cargo_1" => [
+        //     "nome" => "Assistente de Marketing",
+        //     "tempo" => "06/2016 à 06/2017",
+        //     "descricao" => "Atendimento ao cliente, elaboração de orçamentos referente aos serviços de marketing digital, captação e gerenciamento de leads."
+        // ]
     ];
 
     $cursos = [
